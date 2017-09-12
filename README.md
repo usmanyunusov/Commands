@@ -16,6 +16,9 @@
 	<li><b>git clean -f</b> — удаление untracked files:</li>
 	<li><b>git log, gitk</b> — просмотр истории коммитов</li>
 	<li><b>git rm --cached path_to_file</b> — удаление файлов из индекса</li>
+	<li><b>git revert HEAD --no-edit</b> — отмена последнего коммита</li>
+	<li><b>git reset HEAD filename</b> — удалить из индексации<sup>?<sup></li>
+	<li><b>git checkout filename</b> — убрать из индексации файла <sup>?<sup></li>
 </ul>
 
 
