@@ -1,9 +1,9 @@
 # <h1>Полезные команды для работы с Git</h1>
 
 <ul>
-	<li><b>git add <filename> <filename></b> — индексация определенных файлов (можно перечислять)</li>
+	<li><b>git add filename filename</b> — индексация определенных файлов (можно перечислять)</li>
 	<li><b>git add .</b> — добавление всех файлов в git для отслеживания</li> 
-	<li><b>git rm <filename> <filename></b> — удаляет файлы по их имени из репозиторий</li>
+	<li><b>git rm filename filename</b> — удаляет файлы по их имени из репозиторий</li>
 	<li><b>git clean -f -d</b> — удаляет весь мусор и неотслеживаемые файлы</li>
 	<li><b>git branch new_feature</b> — создает новую ветку</li>
 	<li><b>git checkout new_feature</b> — переход на нужную ветку</li>
