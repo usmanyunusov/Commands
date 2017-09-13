@@ -1,7 +1,8 @@
 # <h1>Полезные команды для работы с Git</h1>
 
 <ul>
-	<li><b>git add filename filename</b> — индексация определенных файлов (можно перечислять)</li>
+	<li><b>git init</b> — инициалиализация git</li>
+	<li><b>git add filename filename</b> — добавление отдельных файлов для отслеживания (можно перечислять)</li>
 	<li><b>git add .</b> — добавление всех файлов в git для отслеживания</li> 
 	<li><b>git rm filename filename</b> — удаляет файлы по их имени из репозиторий</li>
 	<li><b>git clean -f -d</b> — удаляет весь мусор и неотслеживаемые файлы</li>
@@ -20,6 +21,9 @@
 	<li><b>git reset HEAD filename</b> — удалить из индексации<sup>?<sup></li>
 	<li><b>git checkout filename</b> — убрать из индексации файла <sup>?<sup></li>
 	<li><b>git log --decorate --graph --all --oneline</b> — просмотр истории коммитов в графическом виде</li>
+	<li><b>git log</b> — просмотр истории коммитов в git</li>
+	<li><b>git fetch repos [repos - имя удал. сервера]</b> — получение изменений на удаленном сервере</li>
+	<li><b>git branch -d branch_name [branch_name - имя ветки]</b> — удаление ветки в git</li>
 </ul>
 
 
