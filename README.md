@@ -19,6 +19,7 @@
 	<li><b>git revert HEAD --no-edit</b> — отмена последнего коммита</li>
 	<li><b>git reset HEAD filename</b> — удалить из индексации<sup>?<sup></li>
 	<li><b>git checkout filename</b> — убрать из индексации файла <sup>?<sup></li>
+	<li><b>git log --decorate --graph --all --oneline</b> — просмотр истории коммитов в графическом виде</li>
 </ul>
 
 
