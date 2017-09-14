@@ -25,7 +25,7 @@
 	<li><b>git fetch repos [repos - имя удал. сервера]</b> — получение изменений на удаленном сервере</li>
 	<li><b>git branch -d branch_name [branch_name - имя ветки]</b> — удаление ветки в git</li>
 	<li><b>git reset --hard origin/master</b> — оптимизирует ветку master</li>
-	<li><b>git pull origin "ветка"</b> — стягивает все измененияиз оригинала<li>
+	<li><b>git pull origin "ветка"</b> — стягивает все измененияиз оригинала<li> 
 </ul>
 
 
