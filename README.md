@@ -1,4 +1,4 @@
-[example.com](http://example.com)
+[example.com](https://github.com/usmanyunusov/my_frontend_list/blob/master/README.md#Полезные-команды-для-работы-с-git)
 
 # <h1>Полезные команды для работы с Git</h1>
 
