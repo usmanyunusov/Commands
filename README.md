@@ -1,4 +1,4 @@
-[сайт]:http://example.com
+[example.com](http://example.com)
 
 # <h1>Полезные команды для работы с Git</h1>
 
