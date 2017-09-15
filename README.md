@@ -30,6 +30,11 @@
 	<li><b>git branch -d branch_name [branch_name - имя ветки]</b> — удаление ветки в git</li>
 	<li><b>git reset --hard origin/master</b> — оптимизирует ветку master</li>
 	<li><b>git pull origin "ветка"</b> — стягивает все измененияиз оригинала</li> 
+	<li><b>git rm -f file1 file2 ... fileN</b> — удалить файл из комита и с жесткого диска</li>
+	<li><b>git reset --hard</b> — отменить все изменения, сделанныe в дереве, до состояния, которое было при последнем commit в локальный репозиторий</li>
+	<li><b>git reset - EDITEDFILE</b> — удалить из индекса конкретный файл</li>
+	<li><b>git reset --hard HEAD~3</b> — навсегда удалить три последних коммита</li>
+	<li><b>git revert cgsjd2h</b> — отменить ком</li>
 </ul>
 
 ## Команды для работы с Bash
