@@ -69,6 +69,9 @@
 	<li><b>docker-compose build</b> — удалить все образы</li>
 	<li><b>docker run -v /var/www:/var/www -p 80:80 -t зазвание образа</b> — запустить контейнер</li>
 	<li><b>docker exec -i -t айди контейнера bash</b> — войти в контейнер</li>
+	
+	<li><b>docker rm айдишник</b> — удалить контейнер или образ</li>
+	<li><b>docker stop айдишник</b> — остановить контейнер</li>
 </ul>
   
 
