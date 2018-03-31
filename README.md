@@ -67,6 +67,8 @@
 	<li><b>sudo docker images -a</b> — список всех образов</li>
 	<li><b>docker rmi $(docker images -a -q)</b> — удалить все образы</li>
 	<li><b>docker-compose build</b> — удалить все образы</li>
+	<li><b>docker run -v /var/www:/var/www -p 80:80 -t зазвание образа</b> — запустить контейнер</li>
+	<li><b>docker exec -i -t айди контейнера bash</b> — войти в контейнер</li>
 </ul>
   
 
