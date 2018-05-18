@@ -18,7 +18,7 @@
 	<li><b>git branch new_feature</b> — создает новую ветку</li>
 	<li><b>git checkout new_feature</b> — переход на нужную ветку</li>
 	<li><b>git checkout -b new_feature</b> — создает новую ветку и переходит на эту ветку</li>
-	<li><b>git commit -a</b> — делаем коммит всех изменений в new_feature</li>
+	<li><b>git commit -a</b> — делаем коммит  всех изменений в new_feature</li>
 	<li><b>git checkout master</b> — переключаемся на master</li>
 	<li><b>git merge new_feature</b> — мерджим ветку new_feature</li>
 	<li><b>git branch</b> — получаем список веток</li>
