@@ -47,6 +47,8 @@
 	<li><b>git stash pop</b> — вернуть спрятанные изменения</li>
 	<li><b>ssh-keygen</b> — генерировать ssh-ключи</li>
 	<li><b>git checkout -b <название ветки> origin/<название ветки></b> — получить удаленную ветку (branch)</li>
+	<li><b>git commit --amend, R, shift + :, quit, git push origin --force</b> — сливать в один комит</li>
+		
 </ul>
 
 ## Команды для работы с Bash
