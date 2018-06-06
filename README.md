@@ -48,6 +48,8 @@
 	<li><b>ssh-keygen</b> — генерировать ssh-ключи</li>
 	<li><b>git checkout -b <название ветки> origin/<название ветки></b> — получить удаленную ветку (branch)</li>
 	<li><b>git commit --amend, R, shift + :, quit, git push origin --force</b> — сливать в один комит</li>
+	<li><b>git reset --soft HEAD^</b> — отменить последний коммит</li>
+	<li><b git reset --hard HEAD^</b> — удалить последний коммит</li>
 		
 </ul>
 
