@@ -49,7 +49,7 @@
 	<li><b>git checkout -b <название ветки> origin/<название ветки></b> — получить удаленную ветку (branch)</li>
 	<li><b>git commit --amend, R, shift + :, quit, git push origin --force</b> — сливать в один комит</li>
 	<li><b>git reset --soft HEAD^</b> — отменить последний коммит</li>
-	<li><b git reset --hard HEAD^</b> — удалить последний коммит</li>
+	<li><b> git reset --hard HEAD^</b> — удалить последний коммит</li>
 </ul>
 
 ## Команды для работы с Bash
@@ -72,7 +72,6 @@
 	<li><b>docker-compose build</b> — удалить все образы</li>
 	<li><b>docker run -v /var/www:/var/www -p 80:80 -t зазвание образа</b> — запустить контейнер</li>
 	<li><b>docker exec -i -t айди контейнера bash</b> — войти в контейнер</li>
-	
 	<li><b>docker rm айдишник</b> — удалить контейнер или образ</li>
 	<li><b>docker stop айдишник</b> — остановить контейнер</li>
 </ul>
