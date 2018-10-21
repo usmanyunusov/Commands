@@ -58,6 +58,12 @@
 <ul> 
 	<li><b>ls</b> — показать содержимое в дериктории</li>
 	<li><b>la</b> — показать скрытые файлы в дериктории</li>
+	<li><b>ssh root@server_ip_address</b> — открыть сессию под root</li>
+	<li><b>adduser username</b> — добавить нового системного пользователя</li>
+	<li><b>usermod -aG sudo username</b> — добавить пользователя в группу sudo</li>
+	<li><b>su - username</b> — перейдите в сессию нового системного пользователя</li>
+	<li><b>sudo ls -la /root</b> — тестирование настроек sudo</li>
+	<li><b>ssh-copy-id username@remote_host</b> — копирование ключа с использованием ssh-copy-id</li>
 </ul>
 
 ## Команды для работы с Docker
