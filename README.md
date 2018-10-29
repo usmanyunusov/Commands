@@ -81,6 +81,7 @@
 	<li><b>docker exec -i -t айди контейнера bash</b> — войти в контейнер</li>
 	<li><b>docker rm айдишник</b> — удалить контейнер или образ</li>
 	<li><b>docker stop айдишник</b> — остановить контейнер</li>
+	<li><b>docker-compose restart айдишник</b> — перезапустить контейнеры</li>
 </ul>
   
 
