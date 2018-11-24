@@ -69,7 +69,7 @@
 ## Команды для работы с Docker
 
 <ul>
-	<li><b>Установка Docker в Ubuntu 16.04</b> — https://www.digitalocean.com/community/tutorials/docker-ubuntu-16-04-ru</li>
+	<li><b>Установка Docker в Ubuntu 16.04</b> — https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository</li>
 	<li><b>sudo docker search nginx</b> — поиска образов Docker</li>
 	<li><b>sudo docker ps</b> — список запущенных контейнеров</li>
 	<li><b>sudo docker ps -a</b> — список всех контейнеров</li>
