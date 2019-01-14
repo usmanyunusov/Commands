@@ -65,6 +65,7 @@
 	<li><b>sudo ls -la /root</b> — тестирование настроек sudo</li>
 	<li><b>ssh-copy-id username@remote_host</b> — копирование ключа с использованием ssh-copy-id</li>
 	<li><b>Установка GIT в Ubuntu</b> — https://losst.ru/ustanovka-git-ubuntu-16-04</li>
+	<li><b>SSH-ADD</b> — ssh-add path/to/ssh_rsa_and_ep</li>
 </ul>
 
 ## Команды для работы с Docker
