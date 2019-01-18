@@ -51,6 +51,24 @@
 	<li><b>git reset --soft HEAD^</b> — отменить последний коммит</li>
 	<li><b> git reset --hard HEAD^</b> — удалить последний коммит</li>
 	<li><b> git reset --soft HEAD~12</b> — Удалить последние коммиты и изменения сохранить</li>
+	<li>
+		<p>#
+# Git
+#
+alias current-branch='git-current-branch'
+alias git-uncommit='git reset --soft $(git log --format=%H -2 | tail -1)'
+alias gst='git status'
+alias glog='git log'
+alias gcheck='git checkout'
+alias gamend='git commit --amend'
+__git_complete gcheck _git_checkout
+alias gcom='git commit'
+__git_complete gcom _git_commit
+alias gdiff='git diff'
+__git_complete gdiff _git_diff
+alias gadd='git add'
+			__git_complete gadd _git_add</p>
+	</li>
 </ul>
 
 ## Команды для работы с Bash
