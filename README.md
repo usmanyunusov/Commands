@@ -51,6 +51,8 @@
 	<li><b>git reset --soft HEAD^</b> — отменить последний коммит</li>
 	<li><b> git reset --hard HEAD^</b> — удалить последний коммит</li>
 	<li><b> git reset --soft HEAD~12</b> — Удалить последние коммиты и изменения сохранить</li>
+	<li><b>git commit --amend --no-edit</b> — Не редактировать сообщение</li>
+	<li><b>git commit --amend -m "test"</b> — работает так, как вы ожидаете</li>
 	<li>
 		<p>#
 # Git
