@@ -105,6 +105,10 @@ alias gadd='git add'
 	<li><b>docker rm айдишник</b> — удалить контейнер или образ</li>
 	<li><b>docker stop айдишник</b> — остановить контейнер</li>
 	<li><b>docker-compose restart айдишник</b> — перезапустить контейнеры</li>
+	<li><b>docker images -f dangling=true</b> — Список подвешенных образов</li>
+	<li><b>docker rmi $(docker images -f dangling=true -q)</b> — Удаление подвешенных образов</li>
+	<li><b>docker ps -a -f status=exited</b> — Список всех закрытых контейнеров</li>
+	<li><b>docker rm $(docker ps -a -f status=exited -q)</b> — Удаление всех закрытых контейнеров</li>
 </ul>
 
 ## Команды для работы с NPM
