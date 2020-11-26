@@ -105,5 +105,5 @@
 ## Команды для работы с MongoDB
 - Резервное копирование данных - `mongodump -d de -c Widgets -o backup`
 - Восстановить из резерва - `mongorestore -v -d de -c Widgets ./backup/de/Widgets.bson`
-
+- Создаем тунель для подключения через MongoDB Compass - `ssh -L <local_port>:<mongodb_hostname>:<mongodb_port> <user>@<bastion_hostname> -fN`
  
