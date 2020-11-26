@@ -54,24 +54,6 @@
 	<li><b> git reset --soft HEAD~12</b> — Удалить последние коммиты и изменения сохранить</li>
 	<li><b>git commit --amend --no-edit</b> — Не редактировать сообщение</li>
 	<li><b>git commit --amend -m "test"</b> — работает так, как вы ожидаете</li>
-	<li>
-		<p>#
-# Git
-#
-alias current-branch='git-current-branch'
-alias git-uncommit='git reset --soft $(git log --format=%H -2 | tail -1)'
-alias gst='git status'
-alias glog='git log'
-alias gcheck='git checkout'
-alias gamend='git commit --amend'
-__git_complete gcheck _git_checkout
-alias gcom='git commit'
-__git_complete gcom _git_commit
-alias gdiff='git diff'
-__git_complete gdiff _git_diff
-alias gadd='git add'
-			__git_complete gadd _git_add</p>
-	</li>
 </ul>
 
 ## Команды для работы с Bash
@@ -119,6 +101,9 @@ alias gadd='git add'
 	<li><b>node -v</b> — показывает установленную версию Node.js.</li>
 	<li><b>npm -v</b> — показывает установленную версию npm.</li>
 </ul>
-  
+
+## Команды для работы с MongoDB
+- Резервное копирование данных - `mongodump -d de -c Widgets -o backup`
+- Восстановить из резерва - `mongorestore -v -d de -c Widgets ./backup/de/Widgets.bson`
 
  
